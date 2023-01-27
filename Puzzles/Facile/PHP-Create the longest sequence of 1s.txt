@@ -1,0 +1,14 @@
+<?php
+/**
+ * Auto-generated code below aims at helping you parse
+ * the standard input according to the problem statement.
+ **/
+
+$a=$b=stream_get_line(STDIN, 999 + 1, "\n");
+for($i=0;$i<strlen($a);$i++) {
+    $a[$i]=1;
+    $z=explode(0,$a);
+    $g[]=strlen(max($z));
+    $a=$b;
+}
+echo max($g);

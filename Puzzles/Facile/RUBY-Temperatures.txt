@@ -1,0 +1,17 @@
+# Auto-generated code below aims at helping you parse
+# the standard input according to the problem statement.
+
+n = gets.to_i
+g={}
+inputs = gets.split(" ")
+for i in 0..(n-1)
+  t = inputs[i].to_i
+  g[t]=t.abs
+end
+
+g=g.sort.reverse.to_h
+if g.empty?
+  puts 0
+else
+  puts g.key(g.values.min)
+end

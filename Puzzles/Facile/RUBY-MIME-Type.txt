@@ -1,0 +1,26 @@
+# Auto-generated code below aims at helping you parse
+# the standard input according to the problem statement.
+
+n = gets.to_i # Number of elements which make up the association table.
+q = gets.to_i # Number Q of file names to be analyzed.
+g={}
+n.times do
+  # ext: file extension
+  # mt: MIME type.
+  ext, mt = gets.split(" ")
+  g[ext.upcase]=mt
+end
+q.times do
+  a=gets.chomp+' '
+  f = a.upcase.split('.')
+  if f.size > 1
+    f=f.pop.strip
+    if g.has_key?(f)
+      puts g[f]
+    else
+      puts "UNKNOWN"
+    end
+  else
+    puts "UNKNOWN"
+  end
+end

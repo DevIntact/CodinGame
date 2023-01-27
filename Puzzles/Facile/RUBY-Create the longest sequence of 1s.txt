@@ -1,0 +1,13 @@
+# Auto-generated code below aims at helping you parse
+# the standard input according to the problem statement.
+
+a = gets
+g=[]
+(0...a.size).map{
+    e=a[_1]
+    a[_1]='1'
+    z=a.split('0')
+    g<<z.max
+    a[_1]=e=='0'?'0':'1'
+}
+p g.max.size

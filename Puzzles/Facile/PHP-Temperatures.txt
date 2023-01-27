@@ -1,0 +1,18 @@
+<?php
+/**
+ * Auto-generated code below aims at helping you parse
+ * the standard input according to the problem statement.
+ **/
+
+// $n: the number of temperatures to analyse
+fscanf(STDIN, "%d", $n);
+$inputs = explode(" ", fgets(STDIN));
+for ($i = 0; $i < $n; $i++)
+{
+    $t = intval($inputs[$i]); 
+    $g[$t]=abs($t);
+}
+krsort($g);
+if(empty($g)) {
+    echo 0;
+} else echo array_search(min($g),$g);
