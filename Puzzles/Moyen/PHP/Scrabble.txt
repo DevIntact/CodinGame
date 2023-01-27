@@ -1,8 +1,6 @@
 <?php
-/**
- * Auto-generated code below aims at helping you parse
- * the standard input according to the problem statement.
- **/
+
+// https://www.codingame.com/training/medium/scrabble
 
 fscanf(STDIN, "%d", $N);
 $r=['aeionrtlsu'=>1,'dg'=>2,'bcmp'=>3,'fhvwy'=>4,'k'=>5,'jx'=>8,'qz'=>10];
