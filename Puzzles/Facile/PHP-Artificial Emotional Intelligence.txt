@@ -11,9 +11,9 @@ $badList = explode(', ',strtolower("Crime, Disappointment, Disasters, Illness, I
 $m=array_slice(str_split(preg_replace('/[^'.$v.']/','',strtolower($name))),0,2);
 $n=array_slice(array_unique(str_split(preg_replace('/[^'.$c.']/','',strtolower($name)))),0,3);
 
-if(count($m)<2 || count($n)<3) {
+if(count($m)<2 || count($n)<3)
     echo "Hello $name.";
-} else {
+else {
 
     $m[0]=$goodList[strpos($v,$m[0])];
     $m[1]=$badList[strpos($v,$m[1])];
