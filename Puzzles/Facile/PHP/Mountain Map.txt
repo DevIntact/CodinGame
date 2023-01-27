@@ -1,15 +1,12 @@
 <?php
-/**
- * Auto-generated code below aims at helping you parse
- * the standard input according to the problem statement.
- **/
 
-// $n: the number of mountains
+// https://www.codingame.com/training/easy/mountain-map
+
 fscanf(STDIN, "%d", $n);
 $inputs = explode(" ", fgets(STDIN));
 for ($i = 0; $i < $n; $i++)
 {
-    $height = intval($inputs[$i]); // height of the mountain
+    $height = intval($inputs[$i]);
     $g[]=$height;
 
 }
@@ -28,6 +25,4 @@ while($d>0) {
     $e++;
 }
 
-foreach($h as $v) {
-    echo rtrim(join($v))."\n";
-}
+foreach($h as $v) echo rtrim(join($v))."\n";

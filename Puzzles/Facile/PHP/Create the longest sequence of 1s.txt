@@ -1,8 +1,6 @@
 <?php
-/**
- * Auto-generated code below aims at helping you parse
- * the standard input according to the problem statement.
- **/
+
+// https://www.codingame.com/training/easy/create-the-longest-sequence-of-1s
 
 $a=$b=stream_get_line(STDIN, 999 + 1, "\n");
 for($i=0;$i<strlen($a);$i++) {

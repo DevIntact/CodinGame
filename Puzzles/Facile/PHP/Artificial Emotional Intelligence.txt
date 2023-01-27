@@ -1,5 +1,7 @@
 <?php
 
+// https://www.codingame.com/training/easy/artificial-emotional-intelligence
+
 $name = fgets(STDIN);
 
 $v='aeiouy';

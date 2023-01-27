@@ -1,8 +1,6 @@
 <?php
-/**
- * Auto-generated code below aims at helping you parse
- * the standard input according to the problem statement.
- **/
+
+// https://www.codingame.com/training/easy/rock-paper-scissors-lizard-spock
 
 function check($v) {
     $r=[

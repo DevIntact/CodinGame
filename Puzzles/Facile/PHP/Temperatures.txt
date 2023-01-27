@@ -1,10 +1,7 @@
 <?php
-/**
- * Auto-generated code below aims at helping you parse
- * the standard input according to the problem statement.
- **/
 
-// $n: the number of temperatures to analyse
+// https://www.codingame.com/training/easy/temperatures
+
 fscanf(STDIN, "%d", $n);
 $inputs = explode(" ", fgets(STDIN));
 for ($i = 0; $i < $n; $i++)

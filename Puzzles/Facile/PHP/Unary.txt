@@ -1,8 +1,7 @@
 <?php
-/**
- * Auto-generated code below aims at helping you parse
- * the standard input according to the problem statement.
- **/
+
+
+// https://www.codingame.com/training/easy/unary
 
 $m = str_split(stream_get_line(STDIN, 100 + 1, "\n"));
 $e='';
