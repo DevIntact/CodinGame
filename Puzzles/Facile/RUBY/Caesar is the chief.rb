@@ -1,5 +1,5 @@
-# Auto-generated code below aims at helping you parse
-# the standard input according to the problem statement.
+
+# https://www.codingame.com/training/easy/caesar-is-the-chief
 
 text_to_decode = gets.split
 r=('A'..'Z').to_a

@@ -1,5 +1,5 @@
-# Auto-generated code below aims at helping you parse
-# the standard input according to the problem statement.
+
+# https://www.codingame.com/training/easy/encryptiondecryption-of-enigma-machine
 
 o = gets.chomp
 n = gets.to_i

@@ -1,3 +1,6 @@
+
+# https://www.codingame.com/training/easy/artificial-emotional-intelligence
+
 name = gets
 
 v='aeiouy'

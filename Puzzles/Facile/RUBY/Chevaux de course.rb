@@ -1,3 +1,6 @@
+
+# https://www.codingame.com/training/easy/horse-racing-duals
+
 g=(1..gets.to_i).map{gets.to_i}.sort
 h=[]
 g.each_with_index.map{|v,k|

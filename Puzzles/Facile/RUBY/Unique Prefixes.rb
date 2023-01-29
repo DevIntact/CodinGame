@@ -1,5 +1,6 @@
-# Auto-generated code below aims at helping you parse
-# the standard input according to the problem statement.
+
+# https://www.codingame.com/training/easy/unique-prefixes
+
 g=[]
 h=[]
 gets.to_i.times {

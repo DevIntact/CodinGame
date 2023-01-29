@@ -1,5 +1,5 @@
-# Auto-generated code below aims at helping you parse
-# the standard input according to the problem statement.
+
+# https://www.codingame.com/training/easy/the-river-i-
 
 r_1 = gets.to_i
 r_2 = gets.to_i

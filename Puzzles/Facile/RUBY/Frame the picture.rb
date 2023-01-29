@@ -1,3 +1,6 @@
+
+# https://www.codingame.com/training/easy/frame-the-picture
+
 f = gets.chomp.chars
 
 h, w = gets.split(" ").collect { |x| x.to_i }

@@ -1,3 +1,6 @@
+
+# https://www.codingame.com/training/easy/binary-image
+
 g=[]
 z=[]
 

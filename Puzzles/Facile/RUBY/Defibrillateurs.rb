@@ -1,5 +1,5 @@
-# Auto-generated code below aims at helping you parse
-# the standard input according to the problem statement.
+
+# https://www.codingame.com/training/easy/defibrillators
 
 lon = gets.chomp.gsub(',','.').to_f
 lat = gets.chomp.gsub(',','.').to_f

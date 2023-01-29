@@ -1,11 +1,10 @@
-# Auto-generated code below aims at helping you parse
-# the standard input according to the problem statement.
 
-n = gets.to_i # the number of mountains
+# https://www.codingame.com/training/easy/mountain-map
+
+n = gets.to_i
 inputs = gets.split(" ")
 g=[]
 for i in 0..(n-1)
-  # height: height of the mountain
   height = inputs[i].to_i
   g<<height
 end

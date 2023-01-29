@@ -1,4 +1,6 @@
 
+# https://www.codingame.com/training/easy/reverse-minesweeper
+
 w = gets.to_i
 h = gets.to_i
 g=[]

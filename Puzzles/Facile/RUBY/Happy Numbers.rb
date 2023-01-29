@@ -1,5 +1,5 @@
-# Auto-generated code below aims at helping you parse
-# the standard input according to the problem statement.
+
+# https://www.codingame.com/training/easy/happy-numbers
 
 n = gets.to_i
 n.times do

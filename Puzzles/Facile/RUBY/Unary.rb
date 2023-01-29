@@ -1,4 +1,6 @@
 
+# https://www.codingame.com/training/easy/unary
+
 e=''
 gets.chomp.chars.map{
     e+=_1.ord.to_s(2).rjust(7,"0")

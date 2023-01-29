@@ -1,3 +1,6 @@
+
+# https://www.codingame.com/training/easy/prefix-code
+
 g={}
 gets.to_i.times{
   b,c=gets.split(" ")

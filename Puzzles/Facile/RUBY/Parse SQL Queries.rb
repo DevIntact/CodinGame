@@ -1,5 +1,5 @@
-# Auto-generated code below aims at helping you parse
-# the standard input according to the problem statement.
+
+# https://www.codingame.com/training/easy/parse-sql-queries
 
 s = gets.gsub(', ',',').sub(' = ','=').sub('ORDER BY','ORDERBY').split
 rows = gets.to_i

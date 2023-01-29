@@ -1,3 +1,6 @@
+
+# https://www.codingame.com/training/easy/metric-units
+
 e = gets.split(' + ')
 
 r={'km'=>1000,'m'=>1,'dm'=>0.1,'cm'=>0.01,'mm'=>0.001,'um'=>0.000001}
