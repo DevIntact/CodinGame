@@ -1,2 +1,5 @@
+* linguist-vendored
+*.php linguist-vendored=true
+*.rb linguist-vendored=true
 *.php linguist-detectable=true
 *.rb linguist-detectable=true
